@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap");
 :root {
   --font-jetbrains-mono: "JetBrains Mono", monospace ;
@@ -54,24 +55,72 @@ svg {
   filter: invert(var(--svg-invert));
 }
 
-:root[data-theme=dark] {
-  --back-a: #131414;
-  --back-b: #1e1e1e;
-  --back-c: #333333;
-  --text-a: #fffffe;
-  --text-b: #cecece;
-  --text-c: #8d8d8d;
+:root[lang=en] {
+  --basic-info: "Basic info";
+  --body-info: "Body info";
+  --forward: "forward";
+  --back: "back";
+  --user-name: "how should we call you?";
+  --user-age: "how old are you now?";
+  --user-gender: "who are you?";
+  --user-activity: "how active are you during day?";
+  --user-height: "what is your height?";
+  --user-weight: "what is your weight?";
+  --user-goalbf: "what is your goal bf?";
+  --almost-none: "almost none";
+  --sedentary: "sedentary";
+  --light: "light";
+  --average: "average";
+  --above-average: "above average";
+  --highest: "highest";
+  --male: "male";
+  --female: "female";
+}
+
+[lang=ru] {
+  --basic-info: "Базовая информация";
+  --body-info: "Информация о теле";
+  --forward: "даллее";
+  --back: "назад";
+  --user-name: "как нам стоит вас называть?";
+  --user-age: "сколько вам сейчас лет?";
+  --user-gender: "кто вы?";
+  --user-activity: "как активно вы живете?";
+  --user-height: "какого вы роста?";
+  --user-weight: "ваш текущий вес?";
+  --user-goalbf: "целевой процент жира?";
+  --almost-none: "почти нулевой";
+  --sedentary: "сидячая работа";
+  --light: "немало ходите";
+  --average: "средняя активность";
+  --above-average: "выше среднего";
+  --highest: "выше некуда";
+  --male: "мужчина";
+  --female: "женщина";
+}
+
+:root[theme=dark] {
+  --back-a: #0a0a0a;
+  --back-b: #1a1a1a;
+  --back-c: #2a2a2a;
+  --back-d: #323232;
+  --text-a: #ffffff;
+  --text-b: #d4d4d4;
+  --text-c: #a8a8a8;
+  --text-d: #7c7c7c;
   --transparent: #00000000;
   --svg-invert: 1;
 }
 
-[data-theme=light] {
-  --back-a: #f6f6f6;
-  --back-b: #e8e8e8;
-  --back-c: #dadada;
+:root[theme=light] {
+  --back-a: #ffffff;
+  --back-b: #f0f0f0;
+  --back-c: #e0e0e0;
+  --back-d: #cccccc;
   --text-a: #0a0a0a;
-  --text-b: #161616;
-  --text-c: #242424;
+  --text-b: #363636;
+  --text-c: #626262;
+  --text-d: #8e8e8e;
   --transparent: #00000000;
   --svg-invert: 0;
 }/*# sourceMappingURL=main.css.map */
