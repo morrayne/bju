@@ -10,7 +10,7 @@ import NumberInput from "../components/NumberInput.vue";
 import SimpleSwitcher from "../components/SimpleSwitcher.vue";
 
 // types
-import type { PlanUserData, PlanNameGenderType } from "../PlanMain.vue";
+import type { PlanUserData, PlanNameGenderType } from "../../../trash/PlanMain.vue";
 
 // inject
 const userData = inject<Ref<PlanNameGenderType>>('userData');

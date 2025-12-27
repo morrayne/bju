@@ -8,7 +8,7 @@ import PlanHolder from "../wraps/PlanHolder.vue";
 import NumberInput from "../components/NumberInput.vue";
 
 // types
-import type { PlanUserData, PlanAgeHeightWeightType } from "../PlanMain.vue";
+import type { PlanUserData, PlanAgeHeightWeightType } from "../../../trash/PlanMain.vue";
 
 // inject
 const userData = inject<Ref<PlanAgeHeightWeightType>>('userData');

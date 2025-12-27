@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // types
-import type { PlanSimpleInputPropsType } from "../PlanMain.vue";
+import type { PlanSimpleInputPropsType } from "../../../trash/PlanMain.vue";
 
 // props
 const props = defineProps<{

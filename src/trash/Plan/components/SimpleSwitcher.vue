@@ -3,7 +3,7 @@
 import { computed } from 'vue';
 
 // imports
-import type { PlanSimpleSwitcherPropsType } from "../PlanMain.vue";
+import type { PlanSimpleSwitcherPropsType } from "../../../trash/PlanMain.vue";
 
 // props
 const props = defineProps<{

@@ -55,6 +55,10 @@ svg {
   filter: invert(var(--svg-invert));
 }
 
+#app {
+  height: 100%;
+}
+
 :root[lang=en] {
   --basic-info: "Basic info";
   --body-info: "Body info";
